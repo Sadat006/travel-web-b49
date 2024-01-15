@@ -13,10 +13,11 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
 }
 nav .left-section {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .left-section .icon {
   width: 35px;
@@ -34,14 +35,44 @@ nav .left-section {
   font-weight: 800;
 }
 /* right nav */
-.right-section {
 
-}
-.right-section ul{
-    display: flex;
-    list-style: none;
+.right-section ul {
+  display: flex;
+  list-style: none;
 }
 .right-section ul li a {
-    margin: 0px 10px;
-    cursor: pointer;
+  margin: 0px 10px;
+  cursor: pointer;
+  color: #424247;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* another header section styles */
+.header-section {
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("assets/Group\ 13\ \(1\)\ \(1\).png");
+}
+.header-section{
+  position: relative;
+}
+.search-bar {
+  display: flex;
+}
+
+input,
+select,
+button {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  background-color: orange;
 }
