@@ -72,7 +72,7 @@ nav .left-section {
 
 .header-section .title {
   color: #fff;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
 }
 .header-desc {
@@ -134,15 +134,20 @@ nav .left-section {
   }
   .header-section .title {
     text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
   }
   nav .left-section {
     margin-bottom: 10px;
   }
   .header-section {
     height: auto;
+    gap: 15px ;
   }
   .search-bar {
     flex-direction: column;
+    margin-bottom: 30px;
   }
 }
+
 /* main section styles */
