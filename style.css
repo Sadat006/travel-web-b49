@@ -48,9 +48,13 @@ nav .left-section {
   font-weight: 400;
   text-decoration: none;
 }
+.right-section .home {
+  color: #ff5400;
+}
 
 /* another header section styles */
 .header-section {
+  height: 500px;
   border-radius: 16px;
   background: linear-gradient(
       180deg,
@@ -58,21 +62,87 @@ nav .left-section {
       rgba(19, 19, 24, 0) 100%
     ),
     url("assets/Group\ 13\ \(1\)\ \(1\).png");
-}
-.header-section{
-  position: relative;
-}
-.search-bar {
+  background-size: cover;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
-input,
-select,
-button {
-  margin: 5px;
+.header-section .title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.header-desc {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  width: 80%;
+}
+
+/* search bar */
+.search-bar {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.search-bar input,
+.search-bar select {
+  background-color: rgb(255, 249, 249);
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  border: none;
+  width: 150px;
+  color: rgb(127, 138, 148);
   padding: 10px;
 }
-
-button {
-  background-color: orange;
+.primary-btn {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff5400;
+  width: 165px;
+  height: 47px;
+  border: none;
+  align-items: center;
+  border-radius: 5px;
 }
+.primary-btn img {
+  width: 1rem;
+  color: white;
+}
+/* responsive header  */
+@media screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+    padding: 10px;
+  }
+  header nav {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .header-section .title {
+    text-align: center;
+  }
+  nav .left-section {
+    margin-bottom: 10px;
+  }
+  .header-section {
+    height: auto;
+  }
+  .search-bar {
+    flex-direction: column;
+  }
+}
+/* main section styles */
