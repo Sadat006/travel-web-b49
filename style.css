@@ -209,6 +209,7 @@ nav .left-section {
 }
 
 /* Destinations style */
+
 .Your-Destinations {
   margin-top: 40px;
 }
@@ -229,11 +230,88 @@ nav .left-section {
   font-weight: 400;
   line-height: 1.6rem;
 }
-/* this secionis  */
-/* sdklfsjkdfhasjkldf */
-/* Why choose us */
-.why-choose-us {
+.imgcont {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  position: relative;
 }
+.imgcont img {
+  width: 100%;
+}
+.imgcont .Maldives {
+  color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.Indonesia {
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.Sri {
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.NorAm {
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.Kash {
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+.Bdb {
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+.Bd {
+  position: absolute;
+  color: antiquewhite;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  /* }responsive styles */
+}
+@media screen and (max-width: 600px) {
+  .imgcont {
+    flex-direction: column;
+    margin: auto;
+  }
+  .imgcont img {
+    max-height: 200px;
+    margin: auto;
+  }
+  .Indonesia,
+  .Sri,
+  .Bd,
+  .Bdb,
+  .Maldives,
+  .NorAm,
+  .Kash {
+    display: none;
+  }
+}
+
+/* Why choose us */
+
 .text-segment {
   max-width: 500px;
   text-align: center;
@@ -287,11 +365,12 @@ nav .left-section {
   .Our-options {
     flex-direction: row;
   }
-  .Our-options .item01 ,.item02 ,.item03{
+  .Our-options .item01,
+  .item02,
+  .item03 {
     width: 100%;
-    padding: auto ;
+    padding: auto;
   }
 }
 
-
-/* new sections styles */
+/* new section styles */
