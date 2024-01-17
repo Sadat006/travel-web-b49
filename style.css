@@ -6,7 +6,7 @@
 }
 body {
   font-family: "Mulish", sans-serif;
-  margin: 40px 120px;
+  margin: 40px 80px;
 }
 /* header section styles */
 header nav {
@@ -296,8 +296,8 @@ nav .left-section {
     margin: auto;
   }
   .imgcont img {
-    max-height: 200px;
-    margin: auto;
+    max-height: 300px;
+    margin: 10px auto;
   }
   .Indonesia,
   .Sri,
@@ -373,4 +373,41 @@ nav .left-section {
   }
 }
 
-/* new section styles */
+/* Unique section section styles */
+
+#local-flavor-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#local-flavor-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+#local-flavor-content h1 {
+  color: #dd5018;
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.local-flavor-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+/* responsive */
+@media screen and (max-width:600px) {
+  #local-flavor-content h1 {
+    text-align: left;
+  }
+  #local-flavor-content p {
+    text-align: justify;
+  }
+}
+
+  /*newLetter section styels */
