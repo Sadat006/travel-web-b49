@@ -542,7 +542,7 @@ footer {
 .social {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 45px;
   margin: 20px auto;
 }
 .social img {
@@ -553,7 +553,7 @@ footer .desc {
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
 
 .textofCopyright {
